@@ -11,6 +11,7 @@ import { TestimonialsSection } from '@/components/TestimonialsSection'
 import { FaqSection } from '@/components/FaqSection'
 import { ContactSection } from '@/components/ContactSection'
 import { AppDownloadSection } from '@/components/AppDownloadSection'
+import { Footer } from '@/components/Footer'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <ContactSection />
         <AppDownloadSection />
       </main>
+      <Footer />
     </div>
   )
 }

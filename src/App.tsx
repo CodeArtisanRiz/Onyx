@@ -3,6 +3,7 @@ import { Hero } from '@/components/Hero'
 import { LogoMarquee } from '@/components/LogoMarquee'
 import { AboutSection } from '@/components/AboutSection'
 import { ServicesSection } from '@/components/ServicesSection'
+import { TrainersSection } from '@/components/TrainersSection'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <LogoMarquee />
         <AboutSection />
         <ServicesSection />
+        <TrainersSection />
       </main>
     </div>
   )

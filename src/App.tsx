@@ -2,6 +2,7 @@ import { Navbar } from '@/components/Navbar'
 import { Hero } from '@/components/Hero'
 import { LogoMarquee } from '@/components/LogoMarquee'
 import { AboutSection } from '@/components/AboutSection'
+import { ServicesSection } from '@/components/ServicesSection'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <LogoMarquee />
         <AboutSection />
+        <ServicesSection />
       </main>
     </div>
   )

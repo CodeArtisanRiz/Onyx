@@ -4,6 +4,7 @@ import { LogoMarquee } from '@/components/LogoMarquee'
 import { AboutSection } from '@/components/AboutSection'
 import { ServicesSection } from '@/components/ServicesSection'
 import { TrainersSection } from '@/components/TrainersSection'
+import { WhyChooseSection } from '@/components/WhyChooseSection'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutSection />
         <ServicesSection />
         <TrainersSection />
+        <WhyChooseSection />
       </main>
     </div>
   )

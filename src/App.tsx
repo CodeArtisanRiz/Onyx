@@ -8,6 +8,7 @@ import { WhyChooseSection } from '@/components/WhyChooseSection'
 import { HowItWorksSection } from '@/components/HowItWorksSection'
 import { PricingSection } from '@/components/PricingSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { FaqSection } from '@/components/FaqSection'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <HowItWorksSection />
         <PricingSection />
         <TestimonialsSection />
+        <FaqSection />
       </main>
     </div>
   )
